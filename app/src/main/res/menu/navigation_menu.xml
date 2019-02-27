@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard" android:icon="@drawable/baseline_account_box_black_24dp"/>
+
+    <item android:id="@+id/events"
+        android:title="Events" android:icon="@drawable/baseline_event_black_24dp"/>
+
+    <item android:id="@+id/search"
+        android:title="Search" android:icon="@drawable/baseline_search_black_24dp"/>
+
+    <item android:id="@+id/settings"
+        android:title="Settings" android:icon="@drawable/baseline_settings_black_24dp"/>
+
+    <item android:id="@+id/log_out"
+        android:title="Log Out" android:icon="@drawable/baseline_power_settings_new_black_24dp"/>
+
+</menu>
