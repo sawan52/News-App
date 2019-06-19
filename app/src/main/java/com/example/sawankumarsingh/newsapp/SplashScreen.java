@@ -2,9 +2,8 @@ package com.example.sawankumarsingh.newsapp;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -29,6 +28,6 @@ public class SplashScreen extends Activity {
                 startActivity(nextActivity);
                 finish();
             }
-        },TIME_OUT);
+        }, TIME_OUT);
     }
 }

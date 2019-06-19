@@ -10,13 +10,13 @@ public class News {
 
     private String newsUrl;
 
-    public News(String NewsImage, String NewsHeadline, String NewsTime, String NewsUrl){
+    public News(String NewsImage, String NewsHeadline, String NewsTime, String NewsUrl) {
         newsImage = NewsImage;
         newsHeadline = NewsHeadline;
         newsTime = NewsTime;
         newsUrl = NewsUrl;
 
-}
+    }
 
     public String getNewsImage() {
         return newsImage;
