@@ -31,7 +31,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         News currentNews = getItem(position);
 
         ImageView newsImage = listItemView.findViewById(R.id.news_image);
-        Picasso.with(getContext())
+        Picasso.get()
                 .load(currentNews.getNewsImage())
                 .into(newsImage);
 
